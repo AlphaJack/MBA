@@ -1,0 +1,8 @@
+{#- no difference at all from pagespeed -#}
+{%- block extrahead -%}
+{#- additional scripts, specifying them here as mkdocs doesn't support async/defer attributes in configuration -#}
+ <script defer src="{{ 'assets/js/vendor/katex/katex.min.js' | url }}"></script>
+ <script defer src="{{ 'assets/js/vendor/mermaid/mermaid.min.js' | url }}"></script>
+ <script defer src="{{ 'assets/js/vendor/tablesort/tablesort.min.js' | url }}"></script>
+ <script defer src="{{ 'assets/js/loader.js' | url }}"></script>
+{%- endblock -%}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" width="600" height="600" id="svg2" sodipodi:version="0.32" inkscape:version="0.47 r22583" sodipodi:docname="a.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata id="metadata12">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview inkscape:window-height="1003" inkscape:window-width="1280" inkscape:pageshadow="2" inkscape:pageopacity="0.0" guidetolerance="10.0" gridtolerance="10.0" objecttolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" inkscape:zoom="0.31112698" inkscape:cx="1241.5479" inkscape:cy="402.37274" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:current-layer="svg2" width="200px" height="200px" showgrid="false" inkscape:showpageshadow="false" inkscape:window-maximized="1"/>
+  <defs id="defs4"/>
+  <path sodipodi:type="arc" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.60216475;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" id="path2367-9" sodipodi:cx="-319.62656" sodipodi:cy="-458.85416" sodipodi:rx="258.91537" sodipodi:ry="258.91537" d="m -60.711182,-458.85416 a 258.91537,258.91537 0 1 1 -517.830748,0 258.91537,258.91537 0 1 1 517.830748,0 z" transform="matrix(1.1528863,0,0,1.1528863,668.49307,829.00666)"/>
+  <path transform="matrix(1.1200571,0,0,1.1200571,657.99998,813.94285)" d="m -60.711182,-458.85416 a 258.91537,258.91537 0 1 1 -517.830748,0 258.91537,258.91537 0 1 1 517.830748,0 z" sodipodi:ry="258.91537" sodipodi:rx="258.91537" sodipodi:cy="-458.85416" sodipodi:cx="-319.62656" id="path2954-4" style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:none" sodipodi:type="arc"/>
+  <path sodipodi:type="arc" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path2956-8" sodipodi:cx="-319.62656" sodipodi:cy="-458.85416" sodipodi:rx="258.91537" sodipodi:ry="258.91537" d="m -60.711182,-458.85416 a 258.91537,258.91537 0 1 1 -517.830748,0 258.91537,258.91537 0 1 1 517.830748,0 z" transform="matrix(0.8303871,0,0,0.8303871,565.41376,681.02656)"/>
+  <g id="g2856" transform="translate(-6.4307236,-0.00281082)">
+    <path style="font-size:271.23535156px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans" d="m 188.96259,179.90933 32.3731,0 0,240.18726 -38.22781,0 0,-163.18066 -29.61794,0 0,-40.33679 c 12.85734,2e-4 21.98379,-2.52084 27.37938,-7.56315 5.39543,-5.04188 8.09319,-14.74409 8.09327,-29.10666 l 0,0 z" id="text1874"/>
+    <path id="path1904" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 459.37148,300.00281 c 0,82.33912 -24.41774,124.90701 -59.68867,124.90701 -35.27093,0 -59.68865,-42.18899 -59.68865,-124.90701 0,-72.68993 23.79717,-124.90704 59.68865,-124.90704 35.89148,0 59.68867,54.09961 59.68867,124.90704 z m -40.82351,1.2e-4 c 0,47.2223 -7.03994,78.81043 -19.17458,78.81043 -12.43995,0 -19.17456,-32.33309 -19.17456,-78.81043 0,-50.56655 7.03992,-78.81043 19.17456,-78.81043 12.44379,0 19.17458,27.49904 19.17458,78.81043 z"/>
+    <path id="path2854" d="m 282.2147,179.90933 32.3731,0 0,240.18726 -38.22781,0 0,-163.18066 -29.61794,0 0,-40.33679 c 12.85734,2e-4 21.98379,-2.52084 27.37938,-7.56315 5.39543,-5.04188 8.09319,-14.74409 8.09327,-29.10666 l 0,0 z" style="font-size:271.23535156px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"/>
+  </g>
+</svg>

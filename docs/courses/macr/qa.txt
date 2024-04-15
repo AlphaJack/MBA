@@ -1,0 +1,139 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!! question
+    What is an IPO, and what role do investment banks play in this process?
+
+    ??? answer
+        An Initial Public Offering (IPO) is when a private company goes public by issuing shares of stock for sale to the general public for the first time. Investment banks play a crucial role in this process by acting as underwriters for the IPO. This means that they help the company determine how many shares to issue and at what price, and then they buy these shares from the company and sell them to investors. Investment banks also help prepare the necessary regulatory filings and marketing materials for the IPO.
+
+!!! question
+    What are some of the key factors that make M&A transactions relevant?
+
+    ??? answer
+        M&A transactions are relevant for several factors. They involve a crossroad of skills and academic tools such as strategy, finance, marketing, accounting, language, and culture. They also involve key assets of a business such as brand, know-how, technology, HR, cost structure, organization, management, financial structure, shareholders’ value and objectives. M&A transactions are essential to business development and are part of a company’s life cycle. They are influenced by economic cycles and macro-economic factors.
+
+!!! question
+    What are some of the motivations for cross-border M&A?
+
+    ??? answer
+        Most cross-border deals by emerging-market companies have mostly been for acquiring strategic resources such as know-how, brands or technology; tapping new markets and customers or sustaining existing markets; securing access to natural resources, such as raw materials and energy; improving efficiency by accessing production assets, such as labor, at a relatively lower cost.
+
+!!! question
+    How can M&A be seen as a form of corporate restructuring?
+
+    ??? answer
+        M&A can be seen as a form of corporate restructuring because it involves combining different companies through mergers or purchasing companies through acquisitions. It can also involve selling companies through disposals or splitting companies through de-mergers or spin-offs. These actions can help to reorganize a company's assets and increase shareholder value.
+
+!!! question
+    What are some ways in which shareholder value can be increased?
+
+    ??? answer
+        There are different ways in which shareholder value can be increased. These include solo ventures or organic growth; partnering through marketing/distribution alliances, joint ventures, licensing, franchising, and equity investments; mergers and acquisitions; minority investments in other firms; financial restructuring; and operational restructuring. The choice among these alternatives depends on the goals of the company, the compatibility between the company and a potential target, the availability of organizational resources to manage a complex deal such as an M&A, and the potential synergies.
+
+!!! question
+    What is the difference between a horizontal, vertical, and conglomerate merger?
+
+    ??? answer
+        A horizontal merger is when two firms in the same industry combine, often to achieve economies of scale or scope. A vertical merger is when one firm acquires a supplier or another firm that is closer to its existing customers, often to control supply or distribution channels. A conglomerate merger is when two firms in unrelated businesses combine, often to diversify the company by combining uncorrelated assets and income streams.
+
+!!! question
+    What are some of the key roles and players in the M&A marketplace?
+
+    ??? answer
+        The M&A marketplace is divided into two parts by the Chinese wall. On one side are the insiders who have private information about the corporation, such as the corporation itself and investment bankers. On the other side is the area with public information, which includes investors, brokers, portfolio managers, institutional sales, analysts, and others.
+
+!!! question
+    What is the life cycle of a company in relation to M&A?
+
+    ??? answer
+        At the beginning of a company's life cycle, it is private and financed mostly with seed capital and venture capital through private placement. Then, with an initial public offering (IPO), the company becomes public. Once the company is public, it can engage in M&A activities such as mergers, acquisitions, divestitures, leveraged buyouts (LBOs), follow-on equity offerings, and stock buybacks.
+
+!!! question
+    What are some of the key divisions within an investment bank?
+
+    ??? answer
+        Some of the key divisions within an investment bank include asset management, private client services, equity division, investment banking division, fixed income division, and others.
+
+!!! question
+    How does information flow between investment bank divisions and clients?
+
+    ??? answer
+        Information flows between investment bank divisions and clients through various channels such as research reports, strategic advice from investment bankers, sales and trading services from salespeople and traders, and capital markets services from equity capital markets, fixed income markets, and syndicate teams.
+
+!!! question
+    What are some of the different types of takeover?
+
+    ??? answer
+        Some of the different types of takeover include friendly takeovers where the target company is willing to be acquired; hostile takeovers where the target company has no desire to be acquired; cash transactions where shareholders receive cash for their shares; share transactions where shareholders receive shares or a combination of cash and shares; and going-private transactions where a majority shareholder makes an offer for the remaining listed shares.
+
+!!! question
+    How can a deal be financed in an M&A transaction?
+
+    ??? answer
+        A deal can be financed in an M&A transaction through various means such as equity financing through venture capital or private placement; fixed income financing through bonds or loans; convertibles such as traditional or zero-coupon bonds; refinancing; warrants; or other derivative structures.
+
+!!! question
+    What are some of the strategic advisory services provided by investment bankers?
+
+    ??? answer
+        Investment bankers can provide strategic advisory services on matters such as mergers & acquisitions; sales of companies or assets; divestitures such as spin-offs or equity carve-outs; restructuring such as financial or strategic restructuring; stock buybacks; or other strategic matters.
+
+!!! question
+    What are some of the roles of sales & trading within an investment bank?
+
+    ??? answer
+        Sales & trading within an investment bank provides execution and liquidity to institutional investors by offering a full array of cash, financing, derivative, and research products across various asset classes. Sales forces identify clients' needs and utilize the firm's resources to meet these needs while traders provide liquidity for securities around the globe.
+
+!!! question
+    What are corporate securities?
+
+    ??? answer
+        Corporate securities include bonds which promise to repay principal with interest to bondholders; stocks which represent ownership in a company and entitle stockholders to participate in its profits; or other securities such as convertibles or warrants.
+
+!!! question
+    What were some of the factors that contributed to merger waves?
+
+    ??? answer
+        The factors that contributed to merger waves included shocks in different sectors such as technological change, deregulation, and escalating commodity prices; ample liquidity available in the market and low cost of capital; overvaluation of acquirer share prices relative to target share prices. It is important to anticipate M&A waves because financial markets reward firms pursuing promising opportunities early on and penalize those that follow later in the cycles.
+
+!!! question
+    What is the difference between a friendly takeover and a hostile takeover? What are some defensive tactics that can be used in a hostile takeover?
+
+    ??? answer
+        A friendly takeover is when the target company is willing to be acquired and actively cooperates with the acquirer by providing confidential information to facilitate the scoping and due diligence processes. A hostile takeover is when the target company has no desire to be acquired and actively rejects the acquirer's advances while refusing to provide any confidential information.
+
+        Some defensive tactics that can be used in a hostile takeover include implementing a Shareholders Rights Plan or poison pill which gives non-acquiring shareholders the right to buy more shares at a discount price in the event of a takeover; selling key assets or crown jewels that the acquiring company is most interested in to make it less attractive for takeover; seeking out another acquirer considered friendly or white knight to make a counter offer; or implementing other defensive measures such as staggered boards or golden parachutes.
+
+!!! question
+    What are some of the motives behind M&As from a buyer's perspective?
+
+    ??? answer
+        From a buyer's perspective, some motives behind M&As include acquiring strategic or critical assets such as know-how or technology; realizing synergies through economies of scale or scope; entering new markets or tapping new customers; diversifying risk by combining uncorrelated assets and income streams; improving efficiency by accessing production assets at a lower cost; or achieving other strategic goals.
+
+!!! question
+    What is the role of research in investment banks?
+
+    ??? answer
+        Research plays an important role in investment banks by providing quantitative, strategic, and tactical research on companies and their industries. This includes forecasting stock price performance and corporate financial results for companies within their coverage responsibility. Research can also provide global economic analysis for clients as well as employees of the investment bank. This includes analyzing economic data such as leading economic indicators and assessing the likelihood, timing, and impact of interest rate changes.
+
+!!! question
+    How can value be created through M&A?
+
+    ??? answer
+        Value can be created through M&A by generating synergies through economies of scale or scope; improving efficiency by accessing production assets at a lower cost; acquiring strategic or critical assets such as know-how or technology; entering new markets or tapping new customers; diversifying risk by combining uncorrelated assets and income streams; or achieving other strategic goals. M&A can also create value by allowing companies to reorganize their assets, increase shareholder value, and achieve other financial benefits.

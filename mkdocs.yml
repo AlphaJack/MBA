@@ -1,0 +1,150 @@
+site_name: MBA @ UniPD
+site_description: Exam questions from my Master of Business Administration at the University of Padova
+site_author: Giacomo
+site_url: https://alphajack.github.io/MBA/
+
+theme:
+  logo: assets/images/cap-white.svg
+  favicon: assets/images/cap-red.svg
+  name: material
+  font: false
+  palette:
+    scheme: unipd
+  custom_dir: overrides
+  features:
+    - content.code.copy
+    #- navigation.expand
+    - navigation.indexes # bad mobile ux if no index.md for each link
+    - navigation.instant # breaks javascript if not imported correctly
+    #- navigation.footer
+    - navigation.tabs
+    #- navigation.top
+    - navigation.tracking
+    - navigation.sticky
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list # inline attributes, needed for buttons
+  - def_list
+  - footnotes
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  #- pymdownx.tabbed # not used at the moment, need === and indentation
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true # used for questions
+  #- pymdownx.tilde # not used at the moment
+  - toc:
+      permalink: true
+      
+extra:
+  comments_show: false
+  comments_url: https://alphajack.github.io/comments
+  date_show: false
+  generator: false
+      
+extra_css:
+  - assets/vendor/katex/katex.min.css
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+ - assets/vendor/katex/katex.min.js
+ #- assets/vendor/mermaid/mermaid.min.js
+ #- assets/vendor/tablesort/tablesort.min.js
+ - assets/javascripts/loader.js
+
+plugins:
+  - search
+  - exclude-search:
+      exclude:
+        - /*
+      exclude_unreferenced: true
+  - ezlinks
+  #- git-revision-date-localized
+  #- htmlproofer: # slow
+  #    raise_error: false
+  #    validate_external_urls: true # slow
+  #    validate_rendered_template: true # slow
+  - minify:
+      minify_html: false # breaks mermaid diagrams
+      minify_css: false
+      css_files:
+        - assets/stylesheets/extra.css
+      minify_js: false
+      js_files:
+        - assets/javascripts/loader.js
+  - social:
+      cards_layout_options:
+        background_color: "#9B0014"
+      #- cards_exclude:
+      #  - changelog/*.md
+      #- cards_include:
+      #  - blog/*
+
+  - tags
+
+# use meaningful H1 whenever possible to avoid overwriting the title here
+nav:
+  - Home:
+    - index.md
+  - Courses:
+    - courses/index.md
+    - Advanced Corporate Finance:
+       - courses/acf/index.md
+       - courses/acf/exam.md
+    - Advanced Financial Accounting:
+       - courses/afa/index.md
+       - courses/afa/exam.md
+    - Business History:
+       - courses/bh/index.md
+       - courses/bh/exam.md
+    - Business Intelligence:
+       - courses/bi/index.md
+       - courses/bi/exam.md
+    - Game Theory and Strategic Management:
+       - courses/gtsm/index.md
+       - courses/gtsm/exam.md
+    - Industrial Organization:
+       - courses/io/index.md
+       - courses/io/exam.md
+    - Intercultural Management:
+       - courses/im/index.md
+       - courses/im/exam.md
+    - International Business and Contracts Law:
+       - courses/ibcl/index.md
+       - courses/ibcl/exam.md
+    - IELTS:
+       - courses/ielts/index.md
+    - Mergers, Acquisitions and Corporate Restructuring:
+       - courses/macr/index.md
+       - courses/macr/exam.md
+    - Organization Development and Behaviour:
+       - courses/odb/index.md
+       - courses/odb/exam.md
+    - Statistics for Management:
+       - courses/sfm/index.md
+       - courses/sfm/exam.md
+  - Student life:
+    - student-life/index.md
+    - student-life/transport.md
+    - student-life/societies.md
+    - student-life/drink.md
+    - student-life/food.md
+  - Software stack:
+    - software/index.md

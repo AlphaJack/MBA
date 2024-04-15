@@ -1,0 +1,347 @@
+/*
+// ┌───────────────────────────────────────────────────────────────┐
+// │ Contents of extra.css                                         │
+// ├───────────────────────────────────────────────────────────────┘
+// │
+// ├──┐COLORS
+// │  ├── THEME
+// │  ├── BUTTONS
+// │  ├── CHECKBOXES
+// │  └── TEXT INPUT
+// ├──┐FIXES
+// │  ├──┐GLOBAL
+// │  │  ├── ANCHORS
+// │  │  ├── HEADINGS
+// │  │  └── OTHERS
+// │  └──┐MOBILE ONLY
+// │     ├── CODE
+// │     └── KATEX
+// ├──┐ADMONITIONS
+// │  ├── ICONS
+// │  └──┐COLORS
+// │     ├── DEFINITION
+// │     ├── EXAMPLE
+// │     ├── QUESTION, EXERCISE
+// │     └── ANSWER, SOLUTION
+// ├──┐COMMENTS
+// │  ├── BUTTONS
+// │  └── OTHERS
+// │
+// └───────────────────────────────────────────────────────────────
+*/
+
+/*
+// ################################################################ COLORS
+*/
+
+/*
+// ################################ THEME
+*/
+/* custom colors*/
+[data-md-color-scheme="unipd"] {
+ --md-primary-fg-color:           #9B0014;                            /* red,         used for header, nav, links, comment avatars */
+ --md-accent-fg-color:            var(--md-primary-fg-color);         /*              used for hover, anchors */
+ --md-typeset-a-color:            var(--md-primary-fg-color);         /*              used for links*/
+ --md-primary-fg-color--light:    #595959;                            /* light grey,  used for headings, comment avatars */
+ --md-default-fg-color--light:    var(--md-primary-fg-color--light);  /*              used for toc, footnotes, authors */
+ --md-default-fg-color--lightest: #BBBBBB;                            /*              used for hr */
+ --md-primary-fg-color--dark:     #484F59;                            /* dark grey,   used for diagrams (must be hex) */
+}
+
+:root {
+ --sheet: #1D6F42;
+}
+
+/*
+// ################################ BUTTONS
+*/
+
+/* sheet buttons */
+.md-typeset .md-button.spreadsheet {
+ color: var(--sheet) !important;
+ border-color:var(--sheet) !important;
+}
+
+.md-typeset .md-button.spreadsheet:is(:focus,:hover) {
+ background-color:var(--sheet) !important;
+ border-color:var(--sheet) !important;
+ color: white !important;
+}
+
+/*
+// ################################ CHECKBOXES
+*/
+
+/* pymdownx checkboxes */
+.md-typeset [type=checkbox]:checked+.task-list-indicator:before {
+ background-color: var(--md-primary-fg-color);
+}
+
+/*
+// ################################ TEXT INPUT
+*/
+
+/* pymdownx checkboxes */
+.md-typeset input[type="text"] {
+ border: revert;
+ width: 8ex;
+}
+
+/*
+// ################################################################ FIXES
+*/
+
+/*
+// ################################ GLOBAL
+*/
+
+/*
+// ################ ANCHORS
+*/
+
+a:hover {
+ text-decoration: underline;   
+}
+
+a.headerlink:hover {
+ text-decoration: none;
+}
+
+/*
+// ################ HEADINGS
+*/
+
+/* unreadable */
+.md-typeset h1 {
+ color: initial;
+}
+
+.md-typeset h2 {
+ font-size: 1.8em;
+}
+
+.md-typeset hr + .md-typeset h2 {
+ margin: initial; /* removing margin before comments */
+}
+
+.md-typeset h3 {
+ font-size: 1.6em;
+ letter-spacing: initial;
+}
+
+.md-typeset h4 {
+ font-size: 1.4em;
+ font-weight: initial;
+ letter-spacing: initial;
+}
+
+.md-typeset h5 {
+ font-size: 1.2em;
+ font-weight: initial;
+ letter-spacing: initial;
+ text-transform:initial;
+ color: initial;
+}
+
+.md-typeset h6 {
+ font-size: 1.1em;
+ font-weight: initial;
+ letter-spacing: initial;
+ text-transform:initial;
+ color: initial;
+}
+
+/*
+// ################ OTHERS
+*/
+
+/* hide blinking caret except for input fields */
+html {
+ caret-color: transparent;
+}
+
+input {
+ caret-color: auto;
+}
+
+/* mermaid diagrams, not working? */
+/*
+div.mermaid, svg[id^="_diagram"], svg[id^="_mermaid"] {
+ max-width: 100%;
+}
+*/
+
+div.mermaid {
+ --md-mermaid-node-bg-color: #E1B2B8; /*light red*/
+}
+
+/* hide copyright footer*/
+.md-footer-meta {
+ display:none
+}
+
+/* use consistent light grey in authors */
+.md-typeset small {
+ opacity: 1.0;
+ color: var(--md-default-fg-color--light);
+}
+
+/*
+// ################################ MOBILE ONLY
+*/
+
+/* mobile only directives */
+@media (hover: none) and (pointer: coarse) {
+    
+/*
+// ################ CODE
+*/
+
+.md-typeset pre > code, .md-typeset > .highlighttable, .md-clipboard {
+ margin: 0 .8rem 1.2rem;
+}
+
+/*
+// ################ KATEX
+*/
+
+.md-typeset div.arithmatex {
+ margin: auto;
+}
+
+}
+
+/*
+// ################################################################ ADMONITIONS
+*/
+
+/*
+// ################################ ICONS
+*/
+
+:root {
+ --md-admonition-icon--definition: var(--md-admonition-icon--info);
+ --md-admonition-icon--exercise: var(--md-admonition-icon--question);
+ --md-admonition-icon--solution: var(--md-admonition-icon--success);
+ --md-admonition-icon--answer: var(--md-admonition-icon--success);
+}
+
+/*
+// ################################ COLORS
+*/
+
+/*
+// ################ DEFINITION
+*/
+
+.md-typeset .admonition.definition, .md-typeset details.definition {
+ border-color: rgb(0, 176, 255);
+}
+
+.md-typeset .definition > .admonition-title, .md-typeset .definition > summary {
+ background-color: rgb(0, 176, 255, 0.1);
+ border-color: rgb(0, 176, 255);
+}
+
+.md-typeset .definition > .admonition-title::before, .md-typeset .definition > summary::before {
+ background-color: rgb(0, 176, 255);
+ -webkit-mask-image: var(--md-admonition-icon--definition);
+ mask-image: var(--md-admonition-icon--definition);
+}
+
+/*
+// ################ EXAMPLE
+*/
+
+.md-typeset .admonition.example, .md-typeset details.exemple {
+ border-color: rgb(255, 145, 0);
+}
+
+.md-typeset .example > .admonition-title, .md-typeset .example > summary {
+ background-color: rgba(255, 145, 0, 0.1);
+ border-color: rgb(255, 145, 0);
+}
+
+.md-typeset .example > .admonition-title::before, .md-typeset .example > summary::before {
+ background-color: rgb(255, 145, 0);
+ -webkit-mask-image: var(--md-admonition-icon--example);
+ mask-image: var(--md-admonition-icon--example);
+}
+
+/*
+// ################ QUESTION, EXERCISE
+*/
+
+.md-typeset .admonition.exercise, .md-typeset details.exercise, .md-typeset .admonition.question, .md-typeset details.question {
+ border-color: rgb(255, 82, 82);
+}
+
+.md-typeset .exercise > .admonition-title, .md-typeset .exercise > summary, .md-typeset .question > .admonition-title, .md-typeset .question > summary {
+ background-color: rgba(255, 82, 82, 0.1);
+ border-color: rgb(255, 82, 82);
+}
+
+.md-typeset .exercise > .admonition-title::before, .md-typeset .exercise > summary::before, .md-typeset .question > .admonition-title::before, .md-typeset .question > summary::before  {
+ background-color: rgb(255, 82, 82);
+ -webkit-mask-image: var(--md-admonition-icon--exercise);
+ mask-image: var(--md-admonition-icon--exercise);
+}
+
+/*
+// ################ ANSWER, SOLUTION
+*/
+
+.md-typeset .admonition.solution, .md-typeset details.solution, .md-typeset .admonition.answer, .md-typeset details.answer {
+ border-color: rgb(100, 221, 23);
+}
+
+.md-typeset .solution > .admonition-title, .md-typeset .solution > summary, .md-typeset .answer > .admonition-title, .md-typeset .answer > summary {
+ background-color: rgba(100, 221, 23, 0.1);
+ border-color: rgb(100, 221, 23);
+}
+
+.md-typeset .solution > .admonition-title::before, .md-typeset .solution > summary::before, .md-typeset .answer > .admonition-title::before, .md-typeset .answer > summary::before {
+ background-color: rgb(100, 221, 23);
+ -webkit-mask-image: var(--md-admonition-icon--solution);
+ mask-image: var(--md-admonition-icon--solution);
+}
+
+/*
+// ################################################################ COMMENTS
+*/
+
+/*
+// ################################ BUTTONS
+*/
+
+#isso-thread input[type="button"], #isso-thread input[type="submit"] {
+ /* same properties as material buttons */
+ color: var(--md-primary-fg-color);
+ background-color: initial;
+ border-color: var(--md-typeset-a-color); /* same as primary color */
+ border-radius: 3px;
+ transition: color 125ms,background-color 125ms,border-color 125ms;
+ /* same properties as input fields */
+ padding: .3em 10px;
+ font-weight: bold;
+ -webkit-appearance: none;
+}
+
+#isso-thread input[type="button"]:hover, #isso-thread input[type="submit"]:hover {
+ background-color: var(--md-accent-fg-color);
+ border-color: var(--md-accent-fg-color);
+ color: var(--md-accent-bg-color);
+}
+
+/*
+// ################################ OTHERS
+*/
+
+#isso-thread > h4 {
+ color: var(--md-primary-fg-color--dark) !important;
+ /*color: #000000 !important;*/
+}
+
+.isso-comment > div.text-wrapper > .isso-comment-header .author {
+ color: var(--md-primary-fg-color--dark) !important;
+}

@@ -1,0 +1,36 @@
+{#- added authors from meta if "authors" is present, added a second horizontal rule -#}
+{#- copied from v8.1.5 -#}
+
+{%- if not page.is_homepage -%}
+ {%- if page and page.meta and page.meta.hide and "info" in page.meta.hide -%}
+  {#- do nothing -#}
+ {%- else -%}
+ <hr>
+ <div class="md-source-file">
+  <small>
+   {% if page and page.meta and page.meta.authors %}
+    Authors: {{ page.meta.authors }}
+    <br/>
+   {% elif git_page_authors %}
+    Authors: {{ git_page_authors | default('enable mkdocs-git-authors-plugin') }}
+    <br/>
+   {% elif config.site_author %}
+    Authors: {{ config.site_author }}
+    <br/>
+   {% endif %}
+   {% if page.meta.git_revision_date_localized and config.extra.date_show %}
+    {{ lang.t("source.file.date.updated") }}:
+    {{ page.meta.git_revision_date_localized }}
+    {% if page.meta.git_creation_date_localized %}
+     <br>
+     {{ lang.t("source.file.date.created") }}:
+     {{ page.meta.git_creation_date_localized }}
+    {% endif %}
+   {% elif page.meta.revision_date %}
+    {{ lang.t("source.file.date.updated") }}:
+    {{ page.meta.revision_date }}
+   {% endif %}
+  </small>
+ </div>
+ {%- endif -%}
+{%- endif -%}
