@@ -2,7 +2,7 @@
 
 This is the list of tools I used for this website:
 
-## Note organization:
+## Note organization
 - [Obsidian](https://obsidian.md/): text editing and organization
     - [Advanced Tables plugin](https://github.com/tgrosinger/advanced-tables-obsidian): better interaction with markdown tables
     - [LanguageTool plugin](https://github.com/Clemens-E/obsidian-languagetool-plugin): proofreading
@@ -11,7 +11,7 @@ This is the list of tools I used for this website:
 - [Git](https://git-scm.com/): history checkpoints, file integrity and eventual rollback
 - [Syncthing](https://syncthing.net/): cross-device synchronization and backup
 
-## Website backend:
+## Website backend
 - [GitHub Pages](https://pages.github.com/): static file hosting
 <!--
 - [Arch Linux ARM](https://archlinuxarm.org/): server operating system
