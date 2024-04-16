@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alphajack.github.io/MBA/sitemap.xml
