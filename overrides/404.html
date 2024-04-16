@@ -1,9 +1,0 @@
-{#- added custom 404 page -#}
-{#- copied from v8.1.5 -#}
-
-{% extends "main.html" %}
-{% block content %}
-  <h1>404</h1>
-  <p>Sorry, the page you are looking for is unavailable.<br/>
-   You can <a id="link" href="javascript:history.back()">go back</a> or return to the <a id="link" href="{{ config.site_url }}">home page</a>.</p>
-{% endblock %}

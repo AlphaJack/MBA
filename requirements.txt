@@ -1,8 +1,0 @@
-mkdocs
-mkdocs-exclude-search
-mkdocs-ezlinks-plugin
-mkdocs-git-revision-date-localized-plugin
-mkdocs-material
-mkdocs-material[imaging]
-mkdocs-minify-plugin
-pymdown-extensions
