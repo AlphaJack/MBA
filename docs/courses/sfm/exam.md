@@ -2,7 +2,7 @@
 authors: Giacomo, Enrico
 ---
 
-# Exam questions
+# Statistics for Management exam questions
 
 ## Regression
 

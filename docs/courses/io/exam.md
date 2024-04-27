@@ -2,7 +2,7 @@
 authors: Giacomo, Edoardo, Matteo, Luca
 ---
 
-# Exam questions
+# Industrial Organization exam questions
 
 ## Firm boundaries
 ### The horizontal boundaries of the firm

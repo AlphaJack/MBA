@@ -2,7 +2,7 @@
 authors: Giacomo, Henri, Antonio, Bing
 ---
 
-# Exam questions
+# Mergers, Acquisitions and Corporate Restructuring exam questions
 
 ## Multiple-choice questions
 

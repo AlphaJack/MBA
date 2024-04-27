@@ -2,7 +2,7 @@
 authors: Giacomo, Edoardo, Matteo
 ---
 
-# Exam questions
+# Business History exam questions
 
 ## Preindustrial manufacturing
 

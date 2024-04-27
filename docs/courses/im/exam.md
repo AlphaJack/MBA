@@ -1,4 +1,5 @@
-# Exam questions
+# Intercultural Management exam questions
+
 ## Multiple choice questions
 
 !!! question

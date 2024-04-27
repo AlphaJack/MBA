@@ -2,7 +2,7 @@
 authors: Giacomo, Peter, Stefano, Sébastien
 ---
 
-# Exam questions
+# Business Intelligence exam questions
 
 ## Multiple-choice questions
 

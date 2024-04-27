@@ -1,4 +1,4 @@
-# Exam questions
+# Advanced Financial Accounting exam questions
 
 This is a comprehensive list of exam questions and exercises with step by step solutions and answers, obtained from official exams and exams simulations.  
 It is possible to mark your choices and enter your values in the text boxes before checking the corrent answer.

@@ -2,7 +2,7 @@
 authors: Giacomo, Edoardo, Matteo, Antonio
 ---
 
-# Exam questions
+# Game Theory and Strategic Management exam questions
 
 ## Simultaneous games
 
